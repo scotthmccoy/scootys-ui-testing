@@ -234,7 +234,7 @@ public extension XCUIElement {
 }
 
 // MARK: UISwitch State
-extension XCUIElement {
+public extension XCUIElement {
     var isOn: Bool {
         get {
             guard let state = self.value as? String else {
@@ -254,7 +254,7 @@ extension XCUIElement {
 }
 
 // MARK: UIPicker
-extension XCUIElement {
+public extension XCUIElement {
     func setPicker(to:String, _ test:XCTestCase, file:StaticString=#file, line:UInt=#line) {
         self.assertExists(file:file, line:line)
         let pkrWheel = self.pickerWheels.element
@@ -268,7 +268,7 @@ extension XCUIElement {
 // MARK: Tapping on a CGPoint
 // These are useful when the element you want to target not hittable
 // due to not being covered, not exposed to Accessibility, etc.
-extension XCUIElement {
+public extension XCUIElement {
 
     // Note: XCUICoordinates are specific to a particular XCUIApplication.
     private func coordinate(from cgPoint: CGPoint) -> XCUICoordinate {
