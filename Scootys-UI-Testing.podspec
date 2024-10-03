@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
     s.name         = "Scootys-UI-Testing"
     s.version      = "1.0.1"
     s.summary      = "Collection of UI Testing Utilities"
-    s.homepage     = "http://vrtcal.com"
+    s.homepage     = "http://scottsoft.com"
     s.license = { :type => 'Copyright', :text => <<-LICENSE
                    Copyright 2024 Scott McCoy
                   LICENSE
