@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "Scootys-UI-Testing"
-    s.version      = "1.0.1"
+    s.version      = "1.0.2"
     s.summary      = "Collection of UI Testing Utilities"
     s.homepage     = "http://scottsoft.com"
     s.license = { :type => 'Copyright', :text => <<-LICENSE
